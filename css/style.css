@@ -61,3 +61,8 @@ textarea[type="text"] {
 .submit {
   position: absolute;
 }
+#design,
+#prod,
+#develop {
+  display: none;
+}

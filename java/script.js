@@ -23,4 +23,15 @@
       $("#prod").slideUp();
       $("#pro_icon").slideDown("2000");
     });
-  
+   
+        $("#pro1").mouseenter(function(){
+          $("#hover1").show();
+        }).mouseleave(function(){
+          $("#hover1").hide();
+        });
+       
+        $("#pro2").mouseenter(function(){
+          $("#hover2").show();
+        }).mouseleave(function(){
+          $("#hover2").hide();
+        });
