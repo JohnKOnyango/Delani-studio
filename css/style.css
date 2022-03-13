@@ -43,4 +43,15 @@
 }
 .contact-us {
   background-image: url(../assets/backgrounds/c_image.jpg);
+  background-position: center;
+  background-size: cover;
+}
+input[type="text"] {
+  background: transparent;
+  color: white;
+  font-size: 25px;
+}
+textarea[type="text"] {
+  background: transparent;
+  color: white;
 }
