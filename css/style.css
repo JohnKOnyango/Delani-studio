@@ -24,3 +24,20 @@
 .we-do {
   text-align: center;
 }
+.we-do .header {
+  padding-bottom: 20px;
+}
+#port {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 15%;
+}
+.col-md-3 img {
+  max-width: 90%;
+  max-height: 90%;
+}
+.port h2 {
+  text-align: center;
+}
