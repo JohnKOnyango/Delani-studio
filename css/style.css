@@ -53,5 +53,11 @@ input[type="text"] {
 }
 textarea[type="text"] {
   background: transparent;
-  color: white;
+  color: black;
+}
+.Footer {
+  text-align: center;
+}
+.submit {
+  position: absolute;
 }
