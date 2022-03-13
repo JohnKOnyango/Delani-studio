@@ -35,3 +35,33 @@
         }).mouseleave(function(){
           $("#hover2").hide();
         });
+        $("#pro3").mouseenter(function(){
+          $("#hover3").show();
+        }).mouseleave(function(){
+          $("#hover3").hide();
+        });
+        $("#pro4").mouseenter(function(){
+          $("#hover4").show();
+        }).mouseleave(function(){
+          $("#hover4").hide();
+        });
+        $("#pro5").mouseenter(function(){
+          $("#hover5").show();
+        }).mouseleave(function(){
+          $("#hover5").hide();
+        });
+        $("#pro6").mouseenter(function(){
+          $("#hover6").show();
+        }).mouseleave(function(){
+          $("#hover6").hide();
+        });
+        $("#pro7").mouseenter(function(){
+          $("#hover7").show();
+        }).mouseleave(function(){
+          $("#hover7").hide();
+        });
+        $("#pro8").mouseenter(function(){
+          $("#hover8").show();
+        }).mouseleave(function(){
+          $("#hover8").hide();
+        });

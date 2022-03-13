@@ -11,7 +11,6 @@
   padding: 5px;
 }
 #mouse {
-  /* animation-iteration-count: infinite; */
   animation: alternate;
 }
 .services {
@@ -65,4 +64,25 @@ textarea[type="text"] {
 #prod,
 #develop {
   display: none;
+}
+#hover1,
+#hover2,
+#hover3,
+#hover4,
+#hover5,
+#hover6,
+#hover7,
+#hover8 {
+  display: none;
+  position: absolute;
+
+  text-align: center;
+}
+.col-md-3 img {
+  width: 100%;
+  margin: 20px;
+}
+.col-md-3 img {
+  width: 400px;
+  margin: 20px;
 }
