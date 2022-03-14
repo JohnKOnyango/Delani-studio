@@ -8,7 +8,6 @@
       $("#d-image").slideDown("2000");
     });
     $("#d-icon").click(function(){
-        $("#d-icon").slideDown("2000");
         $("#develop").show(2000);
       });
       $("#develop").click(function(){
@@ -65,15 +64,29 @@
         }).mouseleave(function(){
           $("#hover8").hide();
         });
-        $(".submit").click(function () {
-          var Name = $("#mce-FNAME").val();
-          var Email = $("#mce-EMAIL").val();
-          var Message = $("#mce-MESSAGE");
+    //     $(".submit").click(function () {
+    //       var Name = $("#mce-FNAME").val();
+    //       var Email = $("#mce-EMAIL").val();
+    //       var Message = $("#mce-MESSAGE");
           
-          if (Name == "" || Email == "" || Message == "") {
-              alert("Please make sure you have filled in the form correctly!");
-          } else {
-              alert( Name + "", "We have received your message. Thank you for reaching out to us.");
-         // e.preventDefault();
-            } 
-    });
+    //       if (Name == "" || Email == "" || Message == "") {
+    //           alert("Please make sure you have filled in the form correctly!");
+    //       } else {
+    //           alert( Name + "", "We have received your message. Thank you for reaching out to us.");
+    //      // e.preventDefault();
+    //         } 
+    // });
+    function validateEmail(email){
+      let regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    
+      if(email.match(regex)){
+    
+        return (true);
+      }
+      else {
+    
+        return (false);
+         alert("Enter a valid email");
+      }
+    
+    }

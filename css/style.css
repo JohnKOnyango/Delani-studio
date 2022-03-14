@@ -10,15 +10,14 @@
 #intro h1 {
   padding: 5px;
 }
-#mouse {
-  animation: alternate;
-}
+
 .services {
   background-image: url("../assets/backgrounds/s_image.jpg");
   background-size: cover;
   text-align: center;
   color: white;
   font-size: small;
+  height: 250px;
 }
 .we-do {
   text-align: center;
@@ -26,12 +25,12 @@
 .we-do .header {
   padding-bottom: 20px;
 }
-#port {
+.port {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 .col-md-3 img {
   max-width: 100%;
@@ -44,15 +43,41 @@
   background-image: url(../assets/backgrounds/c_image.jpg);
   background-position: center;
   background-size: cover;
+  color: white;
+}
+
+#textarea {
+  background: transparent;
+  color: white;
+  font-size: 25px;
+  margin-right: 100px;
+  margin-left: 70px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  height: 200px;
+}
+input[type="email"] {
+  background: transparent;
+  color: white;
+  font-size: 25px;
+  margin-right: 50px;
+  height: 40px;
 }
 input[type="text"] {
   background: transparent;
   color: white;
   font-size: 25px;
+  margin-right: 50px;
+  height: 40px;
 }
-textarea[type="text"] {
-  background: transparent;
-  color: black;
+#name::placeholder {
+  color: white;
+}
+#email::placeholder {
+  color: white;
+}
+#textarea::placeholder {
+  color: white;
 }
 .Footer {
   text-align: center;
@@ -74,9 +99,10 @@ textarea[type="text"] {
 #hover7,
 #hover8 {
   display: none;
-  position: absolute;
-
+  position: relative;
+  bottom: 180px;
   text-align: center;
+  color: blue;
 }
 .col-md-3 img {
   width: 100%;
@@ -85,4 +111,12 @@ textarea[type="text"] {
 .col-md-3 img {
   width: 400px;
   margin: 20px;
+}
+#form,
+.form-control {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+#about-us {
+  text-align: center;
 }
