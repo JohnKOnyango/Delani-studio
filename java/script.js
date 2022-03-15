@@ -1,12 +1,13 @@
 
     $("#d-image").click(function(){
       $("#d-image").slideDown("2000");
-      $("#design").show(2000);
+      $("#hide-image").show(2000);
     });
-    $("#design").click(function(){
-      $("#design").slideUp();
+    $("#hide-image").click(function(){
+      $("#hide-image").slideUp();
       $("#d-image").slideDown("2000");
     });
+    
     $("#d-icon").click(function(){
         $("#develop").show(2000);
       });
@@ -64,6 +65,7 @@
         }).mouseleave(function(){
           $("#hover8").hide();
         });
+     
         $(".submit").click(function () {
           var Name = $("#name").val();
           var Email = $("#email").val();

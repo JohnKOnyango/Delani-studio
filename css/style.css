@@ -85,7 +85,7 @@ input[type="text"] {
 .submit {
   position: absolute;
 }
-#design,
+#hide-image,
 #prod,
 #develop {
   display: none;
