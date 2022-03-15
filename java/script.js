@@ -64,29 +64,18 @@
         }).mouseleave(function(){
           $("#hover8").hide();
         });
-    //     $(".submit").click(function () {
-    //       var Name = $("#mce-FNAME").val();
-    //       var Email = $("#mce-EMAIL").val();
-    //       var Message = $("#mce-MESSAGE");
+        $(".submit").click(function () {
+          var Name = $("#name").val();
+          var Email = $("#email").val();
+          var Message = $("#textarea");
+          var key = "c8fbd9a0cf3958e02be2822e55cfbfc5-us4";
           
-    //       if (Name == "" || Email == "" || Message == "") {
-    //           alert("Please make sure you have filled in the form correctly!");
-    //       } else {
-    //           alert( Name + "", "We have received your message. Thank you for reaching out to us.");
-    //      // e.preventDefault();
-    //         } 
-    // });
-    function validateEmail(email){
-      let regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-    
-      if(email.match(regex)){
-    
-        return (true);
-      }
-      else {
-    
-        return (false);
-         alert("Enter a valid email");
-      }
-    
-    }
+          if (Name == "" || Email == "" || Message == "") {
+              alert("Please make sure you have filled in the form correctly!");
+          } else {
+              alert( Name + "", "We have received your message. Thank you for reaching out to us.");
+          e.preventDefault();
+            } 
+          
+    });
+  
